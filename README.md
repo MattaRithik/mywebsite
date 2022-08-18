@@ -1,4 +1,4 @@
-# mywebsite
+# Matta Rithik Reddy (my website)
 My portfolio website
 Matta Rithik Reddy 
 
