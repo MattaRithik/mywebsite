@@ -1,4 +1,4 @@
-# Matta Rithik Reddy (my website)
+# Matta Rithik Reddy (my website) (Version 2.0 will be released Soon with Lots of crazy Stuff)
 My portfolio website
 Matta Rithik Reddy 
 
