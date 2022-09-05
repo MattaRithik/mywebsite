@@ -455,7 +455,7 @@ p img {
   margin: 0;
 }
 
-p.lead {
+p.about_description {
   font-family: "Lora", serif;
   font-weight: 300;
   font-size: 2.4rem;
@@ -465,7 +465,7 @@ p.lead {
 }
 
 @media screen and (max-width:1200px) {
-  p.lead {
+  p.about_description {
     font-size: 2.2rem;
   }
 
