@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="This the Blog Page in which all the analysis and other reports will be published this is a subsite of Rithikreddy.com">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+
+    <title>Rithik's Blog - Post Details</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets\css\main.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+
+
+</head>
+
+  <body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+    <!-- Header -->
+    <header class="">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><h2>Rithik Blog<em>.</em></h2></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+               <li class="nav-item">
+                  <a class="nav-link" href="https://www.rithikreddy.com" target="_blank">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blog.html">Blogs</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Say Hello!</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Page Content -->
+    <!-- Banner Starts Here -->
+    <div class="heading-page header-text">
+      <section class="page-heading">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="text-content">
+                <h4>Personal Project-1</h4>
+                <h2>NAS Server - Raspberry Pi</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Banner Ends Here -->
+
+
+    <section class="blog-posts grid-system">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="all-blog-posts">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="blog-post">
+                    <div class="blog-thumb">
+                      <img src="assets\images\rapberry Pi.jpg" alt="">
+                    </div>
+                    <div class="down-content">
+                      <span>Computer Networking</span>
+                      <a href="post-details.html"><h4>NAS Server - Raspberry Pi</h4></a>
+                        <p>
+                          <h4>Things Required:</h4>
+                            <ul style="list-style-type:circle">
+                              <li>Raspberry pi 3 or above</li>
+                              <li>Ethernet cable and connection</li>
+                              <li>Power supply for Raspberry</li>
+                              <li>External monitor</li>
+                              <li>Laptop</li>
+                              <li>Keyboard for Raspberry Pi</li>
+                                <li>Harddisk (For Storage)</li>
+                              <li>Memory Card(Completely Empty) for Raspberry Pi Software (Image)</li>
+                            </ul>
+                          <h4 style="color:#ffbf00;border:0;padding:0">Note:</h4>
+
+                          While I made this project I was in college and my college is having a corporate wifi connection with MSCHAP V2 authentication connection.
+                         So if anyone is in college with the Connection of wifi please avoid this method because this can lead to waste of your time as the wifi Router
+                         can continuously disconnect  and also most of the installation will not be processed by the college Wifi. Please get a normal ethernet connection.
+                         <br>
+                         <br>
+                         If you have a good stable internet connection with ethernet connectivity near raspberry and a power backup you are good to Go.
+                        <h4>Start:</h4>
+                        First load the memory card into laptop. Download the Raspberry Pi imager from <a href="https://www.raspberrypi.com/software/">Raspberry Website</a> if you are having linux just
+                        <br>
+                        Type: <strong>sudo apt install rpi-imager</strong>
+                        <br>
+                        <br>
+                        After installing, open the Raspberry Pi imager you just installed and select the OS in the Selection to Raspberry Pi OS (other)> Raspberry Pi OS lite 32 bit.
+                        Now in the Storage Select the SD Card where you want to load the image.
+                        <br>
+                        Then Click on  Settings icon  and enable ssh and  set a password yet set a strong and
+                        unforgettable password (Don't Forget)
+                        <br><br>
+                        <strong>Then press write.</strong>
+                        <br><br>
+                        The card gets ejected and many Pop ups may pop but remove SD-card only after the prompt displays writing complete.
+
+                        <h4>It's time to Boot the Machine(Raspberry Pi) Up</h4>
+                        Steps to Follow now to get into Terminal:
+                        <ol>
+                          <li>Connect the Ethernet Cable from Router to Raspberry Pi</li>
+                          <li>Connect to a External monitor with HDMI </li>
+                          <li>Connect to a power Supply</li>
+                          <li>Insert the SD card</li>
+                          <li>Connect the Keyboard(No need of mouse as the mouse dont work in Terminal)</li>
+                        </ol>
+                        Now Power on and you will able to see some scripts are scrolling on the screen of your Monitor.
+                        <br>
+                        After Some time Terminal stops at login
+                        <br>
+                        <strong>Default login id :pi</strong>
+                        <br>
+                        <strong>Pasword: which you set while installing </strong>
+                        <br>
+
+                        After logging in type following command in order:
+                        <ol>
+                          <li><strong>sudo apt update </strong></li>
+                          <li><strong>sudo apt upgrade</strong></li>
+                          <li><strong>ifconfig</strong></li>
+                        </ol>
+                        <br>
+                        In If config you will get a <i>(Inet4 Circled in Image)</i> address that is Ip address Note it down
+                        This address can be used to login remotely/virtualized login using SSH (We Dont need now)
+                        <h4 style="color:#ffbf00">Note:</h4>
+                        You may not be Able to enter ”|” (next command will be needing this sign) The Raspberry Pi
+                        is default configured to UK keyboard
+                        <br>
+	                      To change this type : <strong>sudo raspi-config</strong>
+                        <br>
+	                        Select localization options>Dell>other>us layout>ok>ok>ok>ok
+                          <br>
+                        Now the "|" works
+
+                        <br><br><br>
+                        Now Enter the Following command  the command is completely case sensitive  and space sensitive.
+                        <br>
+                        This command is to install the NAS Software in this case we are using open source software
+                        <a href="https://www.google.com/search?q=open+media+vault&oq=open+media+&aqs=chrome.0.69i59l3j69i57j0i20i263i512j0i512l2j69i61.4749j0j7&sourceid=chrome&ie=UTF-8">Open Media Vault.</a>
+                        <br><br>
+                        Type:<strong> sudo wget -O -https://raw-githubusercontent.com/OpenMediaVault-Plugin-Developers/installScript/master/install | sudo bash </strong>
+                        <br><br>
+                        After this installation there is a change that the IP address allocated to you through the DHCP for your Ethernet Connection May Change.
+                        <br>
+                        So Again
+                        <br>
+                        Type: <strong>ifconfig</strong>
+                        <br>
+                        Note Down inet4 address
+                        <br>
+                        <br>
+
+                        Now server software has been successfully installed in the raspberry pi but configuration in left to Perform
+
+                        <i>To Be Continued.................</i>
+
+
+
+
+
+
+
+                        </p>
+
+
+
+
+                      <div class="post-options">
+                        <div class="row">
+                          <div class="col-6">
+                            <ul class="post-tags">
+                              <li><i class="fa fa-tags"></i></li>
+                              <li><a href="https://www.rithikreddy.com" target="_blank">Matta Rithik Reddy</a></li>
+                            </ul>
+                          </div>
+                          <div class="col-6">
+                            <ul class="post-share">
+                              <li><i class="fa fa-share-alt"></i></li>
+                              <li><a href="https://www.linkedin.com/in/rithik-reddy-matta-a4a5b3221/" target="_blank">Linkedin</a>,</li>
+                              <li><a href="https://twitter.com/rithikreddy_18" target="_blank"> Twitter</a>,</li>
+                              <li><a href="https://www.instagram.com/rithikreddy_matta/" target="_blank"> Instagram</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="sidebar-item submit-comment">
+                    <div class="sidebar-heading">
+                      <h2>Your comment</h2>
+                    </div>
+                    <div class="content">
+                      <form id="comment" action="#" method="post">
+                        <div class="row">
+                          <div class="col-md-6 col-sm-12">
+                            <fieldset>
+                              <input name="name" type="text" id="name" placeholder="Your name" required="">
+                            </fieldset>
+                          </div>
+                          <div class="col-md-6 col-sm-12">
+                            <fieldset>
+                              <input name="email" type="text" id="email" placeholder="Your email" required="">
+                            </fieldset>
+                          </div>
+                          <div class="col-md-12 col-sm-12">
+                            <fieldset>
+                              <input name="subject" type="text" id="subject" placeholder="Subject">
+                            </fieldset>
+                          </div>
+                          <div class="col-lg-12">
+                            <fieldset>
+                              <textarea name="message" rows="6" id="message" placeholder="Type your comment" required=""></textarea>
+                            </fieldset>
+                          </div>
+                          <div class="col-lg-12">
+                            <fieldset>
+                              <button type="submit" id="form-submit" class="main-button">Submit</button>
+                            </fieldset>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="sidebar">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="sidebar-item search">
+                    <form id="search_form" name="gs" method="GET" action="#">
+                      <input type="text" name="q" class="searchText" placeholder="type to search..." autocomplete="on">
+                    </form>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="sidebar-item recent-posts">
+                    <div class="sidebar-heading">
+                      <h2>Recent Posts</h2>
+                    </div>
+                    <div class="content">
+                      <ul>
+                        <li><a href="post-details.html">
+                          <h5>NAS SERVER - Raspberry PI</h5>
+                          <span>Sept 7, 2022</span>
+                        </a></li>
+
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="sidebar-item categories">
+                    <div class="sidebar-heading">
+                      <h2>Categories</h2>
+                    </div>
+                    <div class="content">
+                      <ul>
+                        <li><a href="#">Computer Projects</a></li>
+                        <li><a href="#">Trading</a></li>
+                        <li><a href="#">Programming and Coding</a></li>
+                        <li><a href="#">Technology</a></li>
+                      </ul>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="sidebar-item tags">
+                    <div class="sidebar-heading">
+                      <h2>Hot Topics</h2>
+                    </div>
+                    <div class="content">
+                      <ul>
+                        <li><a href="#">Computer Projects</a></li>
+                        <li><a href="#">Trading</a></li>
+                        <li><a href="#">Programming and Coding</a></li>
+                        <li><a href="#">Technology</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="Footercss">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="social-icons">
+              <li><a href="https://www.linkedin.com/in/rithik-reddy-matta-a4a5b3221/" target=”_blank”>Linkedin</a></li>
+              <li><a href="https://github.com/MattaRithikReddy" target=”_blank”>Github</a></li>
+              <li><a href="https://www.instagram.com/rithikreddy_matta/" target=”_blank”>Instagram</a></li>
+              <li><a href="https://twitter.com/rithikreddy_18" target=”_blank”>Twitter</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-12">
+            <div class="copyright-text">
+              <p>Copyright 2022 @rithikreddy.com
+
+                 | Design: <a rel="nofollow" href="www.rithikreddy.com" target="_parent"> Rithik Reddy </a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Additional Scripts -->
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <script src="assets/js/accordions.js"></script>
+
+
+    <script language = "text/Javascript">
+      cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+      function clearField(t){                   //declaring the array outside of the
+      if(! cleared[t.id]){                      // function makes it static and global
+          cleared[t.id] = 1;  // you could use true and false, but that's more typing
+          t.value='';         // with more chance of typos
+          t.style.color='#fff';
+          }
+      }
+    </script>
+
+
+  </body>
+
+</html>
