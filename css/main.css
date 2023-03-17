@@ -3,11 +3,10 @@
   font-size: 20px;
 }
  .Figma{
-    margin-left: 20px;
+    
+    margin-right:20%;
    width: 20%;
-   justify-content:center;
    display: inline-block;
-   margin-left: 10px;
 
  }
  .Java{
@@ -27,9 +26,10 @@
   width:60%
  }
  .Adobe{
-    margin-left: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
    width: 20%;
-   justify-content:center;
+   
    display: inline-block;
 
  }
@@ -1971,7 +1971,7 @@ input::-moz-focus-inner {
 
 .header-main-nav a:hover{
   color: #ffbf00;
-  },
+  }
 .header-main-nav a:focus,
 .header-main-nav a:active {
   color: #ffffff;
