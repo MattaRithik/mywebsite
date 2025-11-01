@@ -5,7 +5,7 @@
     "use strict";
 
     var cfg = {
-        scrollDuration : 800, // smoothscroll duration
+        scrollDuration : 0, // smoothscroll duration
         mailChimpURL   : ''   // mailchimp url
     },
 
@@ -30,7 +30,7 @@
             // will first fade out the loading animation
             $("#loader").fadeOut("slow", function() {
                 // will fade out the whole DIV that covers the website.
-                $("#preloader").delay(300).fadeOut("slow");
+                $("#preloader").delay(0).fadeOut("slow");
             });
 
             // for hero content animations
@@ -250,10 +250,10 @@
     var ssAOS = function() {
 
         AOS.init( {
-            offset: 200,
-            duration: 600,
+            offset: 0,/*600*/
+            duration: 0,/*200*/
             easing: 'ease-in-sine',
-            delay: 300,
+            delay: 0,/*300*/
             once: true,
             disable: 'mobile'
         });

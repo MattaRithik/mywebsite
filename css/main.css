@@ -2799,7 +2799,7 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .s-services {
   padding-top: 10.2rem;
-  padding-bottom: 16rem;
+  padding-bottom: 10rem;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3024,8 +3024,8 @@ input::-moz-focus-inner {
  *
  * ------------------------------------------------------------------- */
 .s-works {
-  padding-top: 19.2rem;
-  padding-bottom: 16rem;
+  padding-top: 10.2rem;
+  padding-bottom: 10rem;
   background-color: #ffffff;
 }
 
@@ -3566,7 +3566,7 @@ input::-moz-focus-inner {
  *
  * ------------------------------------------------------------------- */
 .s-contact {
-  padding-top: 18.4rem;
+  padding-top: 10.4rem;
   padding-bottom: 6.4rem;
   background-color: #050505;
 }
