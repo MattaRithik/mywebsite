@@ -1757,7 +1757,7 @@ input::-moz-focus-inner {
   letter-spacing: .5rem;
   margin-top: 0;
   padding-top: 3.2rem;
-  margin-bottom: 8rem;
+  margin-bottom: 3rem;
   position: relative;
 }
 
@@ -2460,8 +2460,8 @@ input::-moz-focus-inner {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-  padding-top: 19.2rem;
-  padding-bottom: 16.8rem;
+  padding-top: 9.2rem;
+  padding-bottom: 6.8rem;
   background-color: #ffffff;
 }
 
@@ -2470,7 +2470,7 @@ input::-moz-focus-inner {
 }
 
 .s-about > [class*="about-"] {
-  margin-bottom: 15.2rem;
+  margin-bottom: 6.8rem;
 }
 
 .s-about > [class*="about-"]:last-child {
@@ -2630,8 +2630,8 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 @media screen and (max-width:1200px) {
   .s-about {
-    padding-top: 17.2rem;
-    padding-bottom: 15.6rem;
+    padding-top: 9.2rem;
+    padding-bottom: 6.6rem;
   }
 
   .about-experience__timeline .column:first-child {
@@ -2724,7 +2724,7 @@ input::-moz-focus-inner {
 
 @media screen and (max-width:800px) {
   .s-about {
-    padding-top: 16rem;
+    padding-top: 8rem;
   }
 
   .s-about .row {
@@ -2798,7 +2798,7 @@ input::-moz-focus-inner {
  *
  * ------------------------------------------------------------------- */
 .s-services {
-  padding-top: 19.2rem;
+  padding-top: 10.2rem;
   padding-bottom: 16rem;
   background-repeat: no-repeat;
   background-position: center center;
@@ -2846,7 +2846,7 @@ input::-moz-focus-inner {
 
 .services-list {
   max-width: 1240px;
-  margin-top: 8.8rem;
+  margin-top: 2rem;
   counter-reset: ctr;
   position: relative;
 }
@@ -2902,13 +2902,13 @@ input::-moz-focus-inner {
 
 @media screen and (max-width:800px) {
   .s-services {
-    padding-top: 16rem;
-    padding-bottom: 16rem;
+    padding-top: 8rem;
+    padding-bottom: 3em;
   }
 
   .services-list {
     max-width: 600px;
-    margin-top: 8rem;
+    margin-top: 3rem;
   }
 
   .services-list .item-service {
